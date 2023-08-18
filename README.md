@@ -48,5 +48,6 @@ For assistance or troubleshooting, please refer to the [Bug Report](https://punb
 PunBB is licensed under the [GNU General Public License](LICENSE), granting you the freedom to use, modify, and distribute the software in compliance with open-source principles.
 
 ## Copyright
+© Modified and migrated 2023 Ahmed Kawa
 
-© 2023  Ahmed Kawa
+© Copyright 2002, 2003 Rickard Andersson
