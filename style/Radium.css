@@ -1,0 +1,101 @@
+BODY { background-color: #2A2A2A }
+
+TD {
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	color: #D4D0C8
+}
+
+INPUT, SELECT {
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	color: #D4D0C8;
+	background-color: #424242
+}
+
+TEXTAREA {
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	color: #D4D0C8;
+	background-color: #383838
+}
+
+FORM { margin: 0 }
+
+PRE {
+	font-size: 11px;
+	margin: 0
+}
+
+TABLE.punplain {
+	border: none;
+	width: 100%
+}
+TABLE.punmain {
+	border: none;
+	width: 100%;
+	background-color: #606060
+}
+
+TR.punhead { background-color: #606060 }
+TR.puncon1 { background-color: #383838 }
+TR.puncon2 { background-color: #424242 }
+TR.puncon3 { background-color: #484848 }
+TR.puntopic { height: 1.5em }
+
+TD.punhead { color: #F0F0F0 }
+TD.punheadcent {
+	color: #F0F0F0;
+	text-align: center
+}
+TD.puncon1 { background-color: #383838 }
+TD.puncon1cent {
+	background-color: #383838;
+	text-align: center
+}
+TD.puncon1right {
+	background-color: #383838;
+	text-align: right
+}
+TD.puncon2 { background-color: #424242 }
+TD.puncon2cent {
+	background-color: #424242;
+	text-align: center
+}
+TD.puncon3 { background-color: #484848 }
+TD.puncent { text-align: center }
+TD.punright { text-align: right }
+TD.puntop { vertical-align: top }
+TD.puntopright {
+	text-align: right;
+	vertical-align: top
+}
+TD.punquote {
+	background-color: #484848;
+	border: #606060;
+	border-style: dashed;
+	border-width: 1px
+}
+
+A:link, A:visited {
+	text-decoration: none;
+	color: #60C860
+}
+A:link.punhot, A:visited.punhot { color: #FF4000 }
+A:link.punclosed, A:visited.punclosed { color: #888888 }
+A:hover {
+	text-decoration: none;
+	color: #80EE80
+}
+A:hover.punhot { color: #FF5010 }
+A:hover.punclosed { color: #AAAAAA }
+
+IMG.punavatar {
+	margin-top: 3px;
+	margin-bottom: 3px
+}
+
+.puntext { font-size: 11px }
+.punsignature { font-size: 10px }
+.punheadline {
+	font-size: 12px;
+	font-weight: bold;
+}
+.punhot { color: #FF6000 }

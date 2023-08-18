@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head>
+<title>PunBB 1.0 Installation</title>
+</head>
+<body>
+<h1>PunBB 1.0 Installation</h1>
+
+<p>NOTE: If you are upgrading from 1.0 RC 2, skip to section 3.</p>
+
+<h2>1. Requirements</h2>
+
+<ul>
+<li>A webserver (preferably <a href=
+"http://www.apache.org/">Apache</a>)</li>
+
+<li><a href="http://www.php.net/">PHP</a> 4.2.0 or later</li>
+
+<li><a href="http://www.mysql.com/">MySQL</a> or <a href=
+"http://www.postgresql.org/">PostgreSQL</a> (see details
+below)</li>
+</ul>
+
+<p>MySQL: Version 3.23 or later is recommended. PunBB will probably
+work with older versions though.</p>
+
+<p>PostgreSQL: PunBB 1.0 has only been tested on version 7.3.3 of
+PostgreSQL. It should work fine with any version greater than 7.0
+though. If the installer complains about not being able to create
+an index, open up install.php and search for "PostgreSQL &lt;7.3
+note".</p>
+
+<h2>2. Installation</h2>
+
+<p>Copy/upload all files and directories and run install.php from
+the forum root directory. Follow the instructions. If you get an
+error when trying to upload avatar images, make sure that PHP has
+write access to the directory where you store avatars (default is
+img/avatars). Please report any problems you might encounter during
+installation in the forums at <a href=
+"http://forums.punbb.org/">http://forums.punbb.org/</a>.</p>
+
+<h2>3. Upgrading from 1.0 RC 2</h2>
+
+<p>Follow these instructions to update your current 1.0 RC 2
+installation to 1.0 final. It is recommended that the forum be put
+into maintenance mode (Admin/Options) during the update
+procedure.</p>
+
+<p>NOTE: Make a backup before proceeding! Use the tool mysqldump
+for MySQL and pg_dump for PostgreSQL. Also backup any CSS and
+template files that you have made changes to.</p>
+
+<ol>
+<li>Update all scripts and files to 1.0. This is easily done by
+extracting the 1.0 archive into the same directory as your old
+installation (overwriting any existing files).</li>
+
+<li>Copy the script 10_rc2_to_10_update.php from the directory
+"extra" to the forum root directory and run it once. A message will
+appear when the update process has completed. Once the update
+script has finished you should remove the script from the forum
+root directory.</li>
+
+<li>Update any custom made css files so that the identifier names
+no longer contain the character underscore. I.e. make "pun_head"
+into "punhead".</li>
+</ol>
+
+<p>You should now be running PunBB 1.0.</p>
+
+<h2>3. Maximizing performance</h2>
+
+<p>Here are some recommendations for maximizing the performance of
+PunBB. The recommendations are not directly related to PunBB
+performance. They are very general and results may vary.</p>
+
+<ul>
+<li>Run it in a UNIX-like operating system!</li>
+
+<li>Use the Apache webserver and compile PHP as a static module for
+Apache.</li>
+
+<li>Use a PHP caching tool (UNIX only). I recommend <a href=
+"http://www.php-accelerator.co.uk/">PHP Accelerator</a> by Nick
+Lindridge.</li>
+
+<li>Make sure that PHP has zlib support so you can enable gzip
+output compression in Admin/Options. This greatly reduces the size
+of the HTML output at the cost of a little CPU time. An alternative
+is to use the Apache module mod_gzip. The two methods yield similar
+results.</li>
+
+<li>Visit the administration interface and disable any forum
+features that are not used or you feel are unnecessary.</li>
+</ul>
+
+<p>Thank you for using PunBB.<br>
+<br>
+Rickard Andersson<br>
+<a href="mailto:punbb@telia.com">punbb@telia.com</a><br>
+<a href="http://www.punbb.org/">http://www.punbb.org/</a><br>
+</p>
+</body>
+</html>
