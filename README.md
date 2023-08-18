@@ -37,7 +37,7 @@ PunBB is a fast and lightweight PHP-powered discussion board designed to provide
 
 ## Contributing
 
-Contributions to this project are welcome! If you encounter issues or have suggestions for improvements, please [create an issue](https://github.com/Axmaw98/Punbb_1.0_PHP8/issues) or submit a pull request.
+Contributions to this project are welcome! If you encounter issues or have suggestions for improvements, please [create an issue](https://github.com/Axmaw98/Punbb1.0_PHP8/issues) or submit a pull request.
 
 ## Support
 
