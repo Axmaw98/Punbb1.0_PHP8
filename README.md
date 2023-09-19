@@ -1,7 +1,8 @@
 # Punbb 1.0 PHP 8
 PunBB 1.0 stands as a swift and nimble PHP-driven forum platform, characterized by its lithe nature. Distributed under the GNU General Public License, its core objectives encompass enhanced speed, reduced footprint, and minimal graphic demands when juxtaposed with alternative discussion boards. While offering fewer embellishments than counterparts, PunBB excels in expeditious performance and yields compact, semantically accurate, XHTML-compliant page renditions.
 
-![image](https://i.ibb.co/71Ym772/punbb.png)
+![punbb](https://github.com/Axmaw98/Punbb1.0_PHP8/assets/90964275/71a0ae00-01d8-4a6c-a04b-e1d76ecd8398)
+
 
 PunBB is a fast and lightweight PHP-powered discussion board designed to provide efficient and streamlined forum functionality. This project is a modified and migrated version of the original PunBB, updated to run on PHP 8. It is released under the GNU General Public License, empowering users with the freedom to modify and distribute the software.
 
